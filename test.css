@@ -1,0 +1,46 @@
+
+/*Whole Container*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 80px;
+    
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+
+/*Title*/
+#title {
+    border-bottom: 2px solid grey;
+}
+
+
+/*Three Buttons*/
+.flex-container-item-container {
+    
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container-item-container-item{
+    flex-grow: 1;
+}
+
+/*Three Buttons Individual*/
+#player1 {
+    background-color: forestgreen;
+    color: white;
+}
+#player2 {
+    background-color: cadetblue;
+    color: white;
+}
+#reset {
+    background-color: crimson;
+    color: white;
+}
+
