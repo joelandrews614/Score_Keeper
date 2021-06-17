@@ -33,7 +33,7 @@ body {
     justify-content: space-between;
 }
 .flex-container-item-container-item{
-    padding: 12px;
+    padding: 8px;
     flex-grow: 1;
 }
 
