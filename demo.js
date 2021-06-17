@@ -13,10 +13,13 @@ var player2Point = 0;
 //Select Value 
 var selectValueLable = document.querySelector("select");
 
+let isGameOver = false;
+
 
 player1.addEventListener("click", () => {
       
-    if(player1Point < selectValueLable.value){
+    //If Any Bug happens here, Put "<" here
+    if(player1Point != selectValueLable.value){
         player1Point++;
         player1PointLabel.innerHTML = player1Point;  
         
@@ -39,8 +42,8 @@ player1.addEventListener("click", () => {
 
 player2.addEventListener("click", () => {
 
-    
-    if(player2Point < selectValueLable.value){
+    //If Any Bug happens here, Put "<" here
+    if(player2Point != selectValueLable.value){
         player2Point++;
         player2PointLabel.innerHTML = player2Point;  
         
