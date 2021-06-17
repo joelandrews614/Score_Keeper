@@ -9,6 +9,11 @@
     
     border: 1px solid grey;
     padding: 10px;
+    
+}
+
+body {
+    background-color: beige !important; 
 }
 
 
@@ -23,10 +28,12 @@
     
     margin-top: 10px;
     
+    
     display: flex;
     justify-content: space-between;
 }
 .flex-container-item-container-item{
+    padding: 12px;
     flex-grow: 1;
 }
 
